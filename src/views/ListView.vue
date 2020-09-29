@@ -1,10 +1,13 @@
 <template>
   <div class="about">
-    <h1>This is an list page {{list.name}}</h1>
+    <router-link to="/">back</router-link>
+    <h3>{{((list.name)? list.name: "un-named list")}}</h3>
     <ul>
       <li v-bind:key="task.id" v-for="task in list.tasks">
         <input type="checkbox" @click="updateStatus($event, task.id)" v-model="task.complete" >{{task.task_text}}</li>
-      <li><input v-model="newTaskText"><button @click="newTask">Add</button></li>
+      <li><input v-model="newTaskText">
+      <Btn @click.native="newTask" text="Add" />
+      </li>
     </ul>
   </div>
 </template>
@@ -12,7 +15,9 @@
 <script>
 
 import { mapActions, mapState } from "vuex"
+import Btn from "../components/Btn"
 export default {
+  components:{Btn},
   data:function(){
     return {
       newTaskText:""

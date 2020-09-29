@@ -18,11 +18,34 @@ export default {
 </script>
 
 <style>
+
+body, html{
+  background-color:#2a2a2a;
+  color:white;
+  margin: 0;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  padding:0;
+}
+
+li:last-child{
+  margin-top:10px;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Varela Round', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 </style>
