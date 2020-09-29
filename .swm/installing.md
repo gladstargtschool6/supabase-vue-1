@@ -5,8 +5,14 @@ If you used `swimm install` you can jump to step 3. 🎉
 4. Create a project (and an organization)
 5. Go to >API >authentication
 6. Add the following lines to the `.env` file:
-`VUE_APP_SUPABASE_URL<Your URL>
-VUE_APP_SUPABASE_KEY=<Your KEY>`
+
+
+`VUE_APP_SUPABASE_URL<Your URL>`
+
+
+`VUE_APP_SUPABASE_KEY=<Your KEY>`
+
+
 7. Create 2 new tables in the supabase editor:
 `
 CREATE TABLE lists (
@@ -15,6 +21,8 @@ CREATE TABLE lists (
   inserted_at timestamp without time zone DEFAULT timezone('utc' :: text, now()) NOT NULL,
   updated_at timestamp without time zone DEFAULT timezone('utc' :: text, now()) NOT NULL
 );
+`
+`
 CREATE TABLE tasks (
   task_text text NOT NULL,
   complete boolean DEFAULT false,
@@ -24,3 +32,5 @@ CREATE TABLE tasks (
   updated_at timestamp without time zone DEFAULT timezone('utc' :: text, now()) NOT NULL
 );
 `
+
+8. Run `npm run serve` and make sure everything is working fine, adding lists and tasks and marking them done
