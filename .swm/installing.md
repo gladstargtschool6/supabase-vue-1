@@ -7,3 +7,20 @@ If you used `swimm install` you can jump to step 3. 🎉
 6. Add the following lines to the `.env` file:
 `VUE_APP_SUPABASE_URL<Your URL>
 VUE_APP_SUPABASE_KEY=<Your KEY>`
+7. Create 2 new tables in the supabase editor:
+`
+CREATE TABLE lists (
+  uuid text,
+  id bigserial PRIMARY KEY,
+  inserted_at timestamp without time zone DEFAULT timezone('utc' :: text, now()) NOT NULL,
+  updated_at timestamp without time zone DEFAULT timezone('utc' :: text, now()) NOT NULL
+);
+CREATE TABLE tasks (
+  task_text text NOT NULL,
+  complete boolean DEFAULT false,
+  id bigserial PRIMARY KEY,
+  list_id bigint REFERENCES lists NOT NULL,
+  inserted_at timestamp without time zone DEFAULT timezone('utc' :: text, now()) NOT NULL,
+  updated_at timestamp without time zone DEFAULT timezone('utc' :: text, now()) NOT NULL
+);
+`
