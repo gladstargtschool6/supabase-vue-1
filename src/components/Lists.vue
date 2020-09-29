@@ -4,7 +4,9 @@
     <ul>
       <li v-bind:key="list.id" v-for="list in lists">
         <router-link :to="`/list/${list.id}`" >{{((list.name)? list.name: "un-named list")}}</router-link></li>
-      <li><input v-model="newListName"><Btn @click.native="newList" text="Add" /></li>
+      <li><input v-model="newListName">
+        <Btn @click.native="newList" text="Add" />
+      </li>
     </ul>
   </div>
 </template>
@@ -23,10 +25,10 @@ export default {
     ...mapState(["lists"])
   },
   methods:{
-    ...mapActions(['fetchLists', 'createList']),
+    ...mapActions(['createList']),
     newList(){
-      this.createList(this.newListName)
-      this.newListName = ""
+      this.createList(this.newListName);
+      this.newListName = "";
     }
   }
 }

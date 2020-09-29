@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <div class="logos">
+      <img src="./assets/logo.png">
+      <img src="./assets/supabase.png">
+      <img src="./assets/swimm.png">
+    </div>
     <router-view/>
   </div>
 </template>
@@ -39,6 +44,7 @@ li:last-child{
   margin-top:10px;
 }
 
+
 #app {
   font-family: 'Varela Round', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -47,5 +53,17 @@ li:last-child{
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+.logos{
+  position:absolute;
+  top:20px;
+  left:20px;
+  
+}
+
+.logos img{
+  height:30px;
+  vertical-align: middle;
 }
 </style>
