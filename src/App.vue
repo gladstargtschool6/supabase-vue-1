@@ -35,6 +35,10 @@ a{
   text-decoration: none;
 }
 
+a:hover {
+  color:#AAA;
+}
+
 ul{
   list-style: none;
   padding:0;
@@ -42,6 +46,11 @@ ul{
 
 li:last-child{
   margin-top:10px;
+}
+
+.shadowed {
+  -webkit-box-shadow: 5px 5px 11px -3px rgba(0,0,0,0.83); 
+  box-shadow: 5px 5px 11px -3px rgba(0,0,0,0.83);
 }
 
 

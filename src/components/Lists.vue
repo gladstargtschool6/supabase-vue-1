@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <Card>
     <h3>My Lists</h3>
     <ul>
       <li v-bind:key="list.id" v-for="list in lists">
@@ -8,14 +8,16 @@
         <Btn @click.native="newList" text="Add" />
       </li>
     </ul>
-  </div>
+  </Card>
 </template>
 
 <script>
-import { mapActions, mapState } from "vuex"
-import Btn from "./Btn"
+import { mapActions, mapState } from "vuex";
+import Btn from "./Btn";
+import Card from "./Card";
+
 export default {
-  components:{Btn},
+  components:{Btn, Card},
   data: function(){
     return {
       newListName:""

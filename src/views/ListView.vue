@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <router-link to="/">back</router-link>
+  <Card>
+    <router-link to="/" class="back">back</router-link>
     <h3>{{((list.name)? list.name: "un-named list")}}</h3>
     <ul>
       <li v-bind:key="task.id" v-for="task in list.tasks">
@@ -9,15 +9,16 @@
       <Btn @click.native="newTask" text="Add" />
       </li>
     </ul>
-  </div>
+  </Card>
 </template>
 
 <script>
 
-import { mapActions, mapState } from "vuex"
-import Btn from "../components/Btn"
+import { mapActions, mapState } from "vuex";
+import Btn from "../components/Btn";
+import Card from "../components/Card";
 export default {
-  components:{Btn},
+  components:{Btn, Card},
   data:function(){
     return {
       newTaskText:""
