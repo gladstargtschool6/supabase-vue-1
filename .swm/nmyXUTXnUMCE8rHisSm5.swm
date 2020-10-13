@@ -1,42 +1,67 @@
 {
     "id": "nmyXUTXnUMCE8rHisSm5",
     "name": "Creating a To do list in the DB",
-    "dod": "SW4lMjB0aGlzJTIwdW5pdCUyMHlvdSUyMHNob3VsZCUyMG1ha2UlMjB0aGUlMjBhZGQlMjBsaXN0JTIwYnV0dG9uJTIwd29yayUyMCUzQSk=",
+    "dod": "In this unit you should make the add list button work :)",
     "description": "",
-    "summary": "",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNyYyUyRmNvbXBvbmVudHMlMkZMaXN0cy52dWUlMjBiJTJGc3JjJTJGY29tcG9uZW50cyUyRkxpc3RzLnZ1ZSUwQWluZGV4JTIwYmJlYWQ4Ni4uYmJlYjEwNiUyMDEwMDY0NCUwQS0tLSUyMGElMkZzcmMlMkZjb21wb25lbnRzJTJGTGlzdHMudnVlJTBBJTJCJTJCJTJCJTIwYiUyRnNyYyUyRmNvbXBvbmVudHMlMkZMaXN0cy52dWUlMEElNDAlNDAlMjAtMjUlMkM5JTIwJTJCMjUlMkM3JTIwJTQwJTQwJTIwZXhwb3J0JTIwZGVmYXVsdCUyMCU3QiUwQSUyMCUyMCUyMCUyMCUyMC4uLm1hcFN0YXRlKCU1QiUyMmxpc3RzJTIyJTVEKSUwQSUyMCUyMCUyMCU3RCUyQyUwQSUyMCUyMCUyMG1ldGhvZHMlM0ElN0IlMEEtJTIwJTIwJTIwJTIwLi4ubWFwQWN0aW9ucyglNUInY3JlYXRlTGlzdCclNUQpJTJDJTBBJTIwJTIwJTIwJTIwJTIwbmV3TGlzdCgpJTdCJTBBLSUyMCUyMCUyMCUyMCUyMCUyMHRoaXMuY3JlYXRlTGlzdCh0aGlzLm5ld0xpc3ROYW1lKSUzQiUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMHRoaXMubmV3TGlzdE5hbWUlMjAlM0QlMjAlMjIlMjIlM0IlMEElMjAlMjAlMjAlMjAlMjAlN0QlMEElMjAlMjAlMjAlN0QlMEFkaWZmJTIwLS1naXQlMjBhJTJGc3JjJTJGc3RvcmUlMkZpbmRleC5qcyUyMGIlMkZzcmMlMkZzdG9yZSUyRmluZGV4LmpzJTBBaW5kZXglMjA1YjQwY2M1Li41NDIwNDdlJTIwMTAwNjQ0JTBBLS0tJTIwYSUyRnNyYyUyRnN0b3JlJTJGaW5kZXguanMlMEElMkIlMkIlMkIlMjBiJTJGc3JjJTJGc3RvcmUlMkZpbmRleC5qcyUwQSU0MCU0MCUyMC02NCUyQzglMjAlMkI2NCUyQzclMjAlNDAlNDAlMjBleHBvcnQlMjBkZWZhdWx0JTIwbmV3JTIwVnVleC5TdG9yZSglN0IlMEElMjAlMjAlMjAlMjAlMjAlN0QlMkMlMEElMjAlMjAlMjAlMjAlMjBhc3luYyUyMGNyZWF0ZUxpc3QoJTdCY29tbWl0JTdEJTJDJTIwbGlzdE5hbWUpJTdCJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwdHJ5JTIwJTdCJTBBLSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGxldCUyMCU3QiUyMGJvZHklMjAlN0QlMjAlM0QlMjBhd2FpdCUyMHN1cGFiYXNlLmZyb20oJ2xpc3RzJykuaW5zZXJ0KCU1QiU3QiUyMHV1aWQlM0ElMjB1dWlkdjQoKSUyQyUyMG5hbWUlM0FsaXN0TmFtZSUyMCU3RCU1RCklMEEtJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwYm9keSU1QjAlNUQlMEElMkIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlN0QlMjBjYXRjaCUyMChlcnJvciklMjAlN0IlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBjb25zb2xlLmxvZygnZXJyb3InJTJDJTIwZXJyb3IpJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTdEJTBB",
+    "summary": "That was wasy :)\n\n![image.png](https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2F0jBGcP2zqusX3mGqQgeK%2Fimg%2Ff8818e42-f196-4695-95a1-ba2d773fdad5.png?alt=media&token=52c1c59b-6392-44de-8d19-bbabb1f1996b)\n\n[these are the official Supabase docs](https://supabase.io/docs/library/post)\n\n",
     "tests": [],
-    "hints": [],
-    "files": {
+    "hints": [
+        "Did you try to use supabase insert method?",
+        "we can use the uuidv4() library to create the uuid of the list",
+        "Visit the following link https://supabase.io/docs/library/post"
+    ],
+    "swimmPatch": {
         "src/components/Lists.vue": {
-            "index": [
-                "bbead86..bbeb106",
-                "100644"
-            ],
-            "fileA": "src/components/Lists.vue",
-            "fileB": "src/components/Lists.vue",
-            "status": "MODIFIED",
-            "numLineDeletions": 2,
-            "numLineAdditions": 0,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0yNSUyQzklMjAlMkIyNSUyQzclMjAlNDAlNDAlMjBleHBvcnQlMjBkZWZhdWx0JTIwJTdCJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMC4uLm1hcFN0YXRlKCU1QiU1QyUyMmxpc3RzJTVDJTIyJTVEKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTI1JTJDJTIyYiUyMiUzQTI1JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTdEJTJDJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMjYlMkMlMjJiJTIyJTNBMjYlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjBtZXRob2RzJTNBJTdCJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMjclMkMlMjJiJTIyJTNBMjclN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwLi4ubWFwQWN0aW9ucyglNUInY3JlYXRlTGlzdCclNUQpJTJDJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMjglN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjBuZXdMaXN0KCklN0IlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EyOSUyQyUyMmIlMjIlM0EyOCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjB0aGlzLmNyZWF0ZUxpc3QodGhpcy5uZXdMaXN0TmFtZSklM0IlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzMCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMHRoaXMubmV3TGlzdE5hbWUlMjAlM0QlMjAlNUMlMjIlNUMlMjIlM0IlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzMSUyQyUyMmIlMjIlM0EyOSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU3RCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTMyJTJDJTIyYiUyMiUzQTMwJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTdEJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMzMlMkMlMjJiJTIyJTNBMzElN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0EyNSUyQyUyMmxpbmVzQ291bnQlMjIlM0E5JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTI1JTJDJTIybGluZXNDb3VudCUyMiUzQTclN0QlN0QlN0QlN0Q="
+            "diffType": "MODIFIED",
+            "fileDiffHeader": "diff --git a/src/components/Lists.vue b/src/components/Lists.vue\nindex bbead86..bbeb106 100644\n--- a/src/components/Lists.vue\n+++ b/src/components/Lists.vue",
+            "hunks": [
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": [
+                            "We are going to use the createList method from the store, mapActions is the clean way to go"
+                        ]
+                    },
+                    "hunkDiffLines": [
+                        "@@ -25,9 +25,7 @@",
+                        "     ...mapState([\"lists\"])",
+                        "   },",
+                        "   methods:{",
+                        "-    ...mapActions(['createList']),",
+                        "     newList(){",
+                        "-      this.createList(this.newListName);",
+                        "       this.newListName = \"\";",
+                        "     }",
+                        "   }"
+                    ]
+                }
             ]
         },
         "src/store/index.js": {
-            "index": [
-                "5b40cc5..542047e",
-                "100644"
-            ],
-            "fileA": "src/store/index.js",
-            "fileB": "src/store/index.js",
-            "status": "MODIFIED",
-            "numLineDeletions": 2,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC02NCUyQzglMjAlMkI2NCUyQzclMjAlNDAlNDAlMjBleHBvcnQlMjBkZWZhdWx0JTIwbmV3JTIwVnVleC5TdG9yZSglN0IlMjIlMkMlMjJjaGFuZ2VzJTIyJTNBJTVCJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTdEJTJDJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNjQlMkMlMjJiJTIyJTNBNjQlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjBhc3luYyUyMGNyZWF0ZUxpc3QoJTdCY29tbWl0JTdEJTJDJTIwbGlzdE5hbWUpJTdCJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNjUlMkMlMjJiJTIyJTNBNjUlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjB0cnklMjAlN0IlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2NiUyQyUyMmIlMjIlM0E2NiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBsZXQlMjAlN0IlMjBib2R5JTIwJTdEJTIwJTNEJTIwYXdhaXQlMjBzdXBhYmFzZS5mcm9tKCdsaXN0cycpLmluc2VydCglNUIlN0IlMjB1dWlkJTNBJTIwdXVpZHY0KCklMkMlMjBuYW1lJTNBbGlzdE5hbWUlMjAlN0QlNUQpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNjclN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwYm9keSU1QjAlNUQlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2OCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYiUyMiUzQTY3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTdEJTIwY2F0Y2glMjAoZXJyb3IpJTIwJTdCJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNjklMkMlMjJiJTIyJTNBNjglN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBjb25zb2xlLmxvZygnZXJyb3InJTJDJTIwZXJyb3IpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNzAlMkMlMjJiJTIyJTNBNjklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlN0QlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E3MSUyQyUyMmIlMjIlM0E3MCU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTY0JTJDJTIybGluZXNDb3VudCUyMiUzQTglN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBNjQlMkMlMjJsaW5lc0NvdW50JTIyJTNBNyU3RCU3RCU3RCU3RA=="
+            "diffType": "MODIFIED",
+            "fileDiffHeader": "diff --git a/src/store/index.js b/src/store/index.js\nindex 5b40cc5..542047e 100644\n--- a/src/store/index.js\n+++ b/src/store/index.js",
+            "hunks": [
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": [
+                            "using the supabase client library to insert a lnew list with a random id"
+                        ]
+                    },
+                    "hunkDiffLines": [
+                        "@@ -64,8 +64,7 @@",
+                        "     },",
+                        "     async createList({commit}, listName){",
+                        "       try {",
+                        "-        let { body } = await supabase.from('lists').insert([{ uuid: uuidv4(), name:listName }])",
+                        "+       ",
+                        "-        return body[0]",
+                        "       } catch (error) {",
+                        "         console.log('error', error)",
+                        "       }"
+                    ]
+                }
             ]
         }
     },
-    "app_version": "0.2.0",
-    "file_version": "1.0.2"
+    "app_version": "0.2.2",
+    "file_version": "1.0.3"
 }
