@@ -1,30 +1,40 @@
 {
     "id": "QboE3PuRvluf49fvq15p",
     "name": "Creating the client",
-    "dod": "SW4lMjB0aGlzJTIwdW5pdCUyMHlvdSUyMHNob3VsZCUyMHVzZSUyMHRoZSUyMGNyZWF0ZUNsaWVudCUyMG1ldGhvZCUyMHRvJTIwaW5pdGlhbGl6ZSUyMFN1cGFiYXNlJTIwaW4lMjB0aGUlMjBwcm9qZWN0",
-    "description": "UGxlYXNlJTIwbG9vayUyMGF0JTIwdGhlJTIwZXhhbXBsZSUyMGF0JTIwJTVCU3VwYWJhc2UlMjBkb2NzJTVEKGh0dHBzJTNBJTJGJTJGc3VwYWJhc2UuaW8lMkZkb2NzJTJGbGlicmFyeSUyRmdldHRpbmctc3RhcnRlZCUyM2luaXRpYWxpemluZyk=",
-    "summary": "VGhhdCdzJTIwaXQlMkMlMEFXZSUyMGFyZSUyMGdvb2QlMjB0byUyMGdvLiUwQU5vdyUyMHRoYXQlMjB0aGUlMjBwcm9qZWN0JTIwaXMlMjBpbml0aWFsaXplZCUyMHdlJTIwY2FuJTIwc3RhcnQlMjBjcmVhdGluZyUyMGRhdGE=",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNyYyUyRnN0b3JlJTJGaW5kZXguanMlMjBiJTJGc3JjJTJGc3RvcmUlMkZpbmRleC5qcyUwQWluZGV4JTIwNWI0MGNjNS4uOWI4ODk5ZCUyMDEwMDY0NCUwQS0tLSUyMGElMkZzcmMlMkZzdG9yZSUyRmluZGV4LmpzJTBBJTJCJTJCJTJCJTIwYiUyRnNyYyUyRnN0b3JlJTJGaW5kZXguanMlMEElNDAlNDAlMjAtMyUyQzEwJTIwJTJCMyUyQzclMjAlNDAlNDAlMjBpbXBvcnQlMjBWdWV4JTIwZnJvbSUyMCd2dWV4JyUwQSUyMGltcG9ydCUyMCU3QiUyMGNyZWF0ZUNsaWVudCUyMCU3RCUyMGZyb20lMjAnJTQwc3VwYWJhc2UlMkZzdXBhYmFzZS1qcyclMEElMjBpbXBvcnQlMjAlN0IlMjB2NCUyMGFzJTIwdXVpZHY0JTIwJTdEJTIwZnJvbSUyMCd1dWlkJyUwQSUyMCUwQS1jb25zdCUyMHN1cGFiYXNlJTIwJTNEJTIwY3JlYXRlQ2xpZW50KCUwQS0lMjAlMjBwcm9jZXNzLmVudi5WVUVfQVBQX1NVUEFCQVNFX1VSTCUyQyUwQS0lMjAlMjBwcm9jZXNzLmVudi5WVUVfQVBQX1NVUEFCQVNFX0tFWSUwQS0pJTBBJTJCY29uc3QlMjBzdXBhYmFzZSUyMCUzRCUyMCU3QiU3RCUwQSUyMCUwQSUyMFZ1ZS51c2UoVnVleCklMEElMjAlMEE=",
+    "dod": "In this unit you should use the createClient method to initialize Supabase in the project",
+    "description": "Please look at the example at [Supabase docs](https://supabase.io/docs/library/getting-started#initializing)",
+    "summary": "That's it,\nWe are good to go.\nNow that the project is initialized we can start creating data\n\nIf you didn't know the concept of .evn file and process.env we highly recommend reading about it [here](https://cli.vuejs.org/guide/mode-and-env.html)",
     "tests": [],
     "hints": [
         "Did you add the .env file to the root folder?"
     ],
-    "files": {
+    "swimmPatch": {
         "src/store/index.js": {
-            "index": [
-                "5b40cc5..9b8899d",
-                "100644"
-            ],
-            "fileA": "src/store/index.js",
-            "fileB": "src/store/index.js",
-            "status": "MODIFIED",
-            "numLineDeletions": 4,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0zJTJDMTAlMjAlMkIzJTJDNyUyMCU0MCU0MCUyMGltcG9ydCUyMFZ1ZXglMjBmcm9tJTIwJ3Z1ZXgnJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMGltcG9ydCUyMCU3QiUyMGNyZWF0ZUNsaWVudCUyMCU3RCUyMGZyb20lMjAnJTQwc3VwYWJhc2UlMkZzdXBhYmFzZS1qcyclMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzJTJDJTIyYiUyMiUzQTMlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjBpbXBvcnQlMjAlN0IlMjB2NCUyMGFzJTIwdXVpZHY0JTIwJTdEJTIwZnJvbSUyMCd1dWlkJyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTQlMkMlMjJiJTIyJTNBNCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTUlMkMlMjJiJTIyJTNBNSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjJjb25zdCUyMHN1cGFiYXNlJTIwJTNEJTIwY3JlYXRlQ2xpZW50KCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwcHJvY2Vzcy5lbnYuVlVFX0FQUF9TVVBBQkFTRV9VUkwlMkMlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMHByb2Nlc3MuZW52LlZVRV9BUFBfU1VQQUJBU0VfS0VZJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJhZGQlMjIlMkMlMjJtYXJrJTIyJTNBJTIyJTJCJTIyJTJDJTIyZGF0YSUyMiUzQSUyMmNvbnN0JTIwc3VwYWJhc2UlMjAlM0QlMjAlN0IlN0QlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0E2JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTAlMkMlMjJiJTIyJTNBNyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMFZ1ZS51c2UoVnVleCklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ExMSUyQyUyMmIlMjIlM0E4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMTIlMkMlMjJiJTIyJTNBOSU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTMlMkMlMjJsaW5lc0NvdW50JTIyJTNBMTAlN0QlMkMlMjJiJTIyJTNBJTdCJTIyc3RhcnRMaW5lJTIyJTNBMyUyQyUyMmxpbmVzQ291bnQlMjIlM0E3JTdEJTdEJTdEJTdE"
+            "diffType": "MODIFIED",
+            "fileDiffHeader": "diff --git a/src/store/index.js b/src/store/index.js\nindex 5b40cc5..9b8899d 100644\n--- a/src/store/index.js\n+++ b/src/store/index.js",
+            "hunks": [
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": []
+                    },
+                    "hunkDiffLines": [
+                        "@@ -3,10 +3,7 @@",
+                        " import { createClient } from '@supabase/supabase-js'",
+                        " import { v4 as uuidv4 } from 'uuid'",
+                        " ",
+                        "-const supabase = createClient(",
+                        "+const supabase = {}",
+                        "-  process.env.VUE_APP_SUPABASE_URL,",
+                        "-  process.env.VUE_APP_SUPABASE_KEY",
+                        "-)",
+                        " ",
+                        " Vue.use(Vuex)",
+                        " "
+                    ]
+                }
             ]
         }
     },
-    "app_version": "0.2.0",
-    "file_version": "1.0.2"
+    "app_version": "0.2.2",
+    "file_version": "1.0.3"
 }
