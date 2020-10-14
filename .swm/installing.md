@@ -15,6 +15,8 @@ If you used `swimm install` you can jump to step 2. 🎉
   - In Supabase menu Go to >Editor
 
   ![image.png](https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2F0jBGcP2zqusX3mGqQgeK%2Fimg%2Fa604a77f-615a-4300-8291-776f4f037928.png?alt=media&token=2e7b32f9-85e9-490e-acd0-0def53a951a2)
+  
+  - Replace the existing code in the editor with the following lines in order to
   - Create 2 new tables in the supabase editor:
     `
     CREATE TABLE lists (
