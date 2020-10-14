@@ -10,7 +10,6 @@ If you used `swimm install` you can jump to step 2. 🎉
 ## 2. Creating a Supabase project
   - Register on [Supabase](https://supabase.io/)
   - Create a project (and an organization)
-  - Get access to obtain URL and API Key
 
 ## 3. Creating the DB table
   - In Supabase menu Go to >Editor
