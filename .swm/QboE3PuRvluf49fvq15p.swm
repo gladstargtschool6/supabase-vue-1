@@ -15,7 +15,9 @@
             "hunks": [
                 {
                     "swimmHunkMetadata": {
-                        "hunkComments": []
+                        "hunkComments": [
+                            "Passing the URL and API Key arguments to Supabase createClient to Initialize"
+                        ]
                     },
                     "hunkDiffLines": [
                         "@@ -3,10 +3,7 @@",
