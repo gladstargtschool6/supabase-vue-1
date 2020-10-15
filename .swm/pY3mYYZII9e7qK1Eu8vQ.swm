@@ -1,28 +1,38 @@
 {
     "id": "pY3mYYZII9e7qK1Eu8vQ",
     "name": "Fetching lists and adding them to the store",
-    "dod": "SW4lMjB0aGlzJTIwdW5pdCUyMHlvdSUyMHNob3VsZCUyMHNlZSUyMHdoeSUyMHRoZSUyMGxpc3RzJTIwYXJlJTIwbm90JTIwc2hvd24lMjBhZnRlciUyMGZldGNoLi4u",
+    "dod": "In this unit you should see why the lists are not shown after fetch...",
     "description": "",
     "summary": "",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNyYyUyRnN0b3JlJTJGaW5kZXguanMlMjBiJTJGc3JjJTJGc3RvcmUlMkZpbmRleC5qcyUwQWluZGV4JTIwNWI0MGNjNS4uNzhmNjJhYyUyMDEwMDY0NCUwQS0tLSUyMGElMkZzcmMlMkZzdG9yZSUyRmluZGV4LmpzJTBBJTJCJTJCJTJCJTIwYiUyRnNyYyUyRnN0b3JlJTJGaW5kZXguanMlMEElNDAlNDAlMjAtNTUlMkM5JTIwJTJCNTUlMkM2JTIwJTQwJTQwJTIwZXhwb3J0JTIwZGVmYXVsdCUyMG5ldyUyMFZ1ZXguU3RvcmUoJTdCJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwbGV0JTIwJTdCJTIwYm9keSUzQSUyMGxpc3RzJTIwJTdEJTIwJTNEJTIwYXdhaXQlMjBzdXBhYmFzZSUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMC5mcm9tKCdsaXN0cycpJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwLnNlbGVjdCglNjAqJTJDJTIwdGFza3MoKiklNjApJTBBLSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGZvciglMjBsZXQlMjBpJTIwaW4lMjBsaXN0cyklN0IlMEEtJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwY29tbWl0KCdBRERfTElTVCclMkMlMjBsaXN0cyU1QmklNUQpJTNCJTBBLSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCU3RCUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMCU3RCUyMGNhdGNoJTIwKGVycm9yKSUyMCU3QiUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGNvbnNvbGUubG9nKCdlcnJvciclMkMlMjBlcnJvciklMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlN0QlMEE=",
     "tests": [],
     "hints": [],
-    "files": {
+    "swimmPatch": {
         "src/store/index.js": {
-            "index": [
-                "5b40cc5..78f62ac",
-                "100644"
-            ],
-            "fileA": "src/store/index.js",
-            "fileB": "src/store/index.js",
-            "status": "MODIFIED",
-            "numLineDeletions": 3,
-            "numLineAdditions": 0,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC01NSUyQzklMjAlMkI1NSUyQzYlMjAlNDAlNDAlMjBleHBvcnQlMjBkZWZhdWx0JTIwbmV3JTIwVnVleC5TdG9yZSglN0IlMjIlMkMlMjJjaGFuZ2VzJTIyJTNBJTVCJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwbGV0JTIwJTdCJTIwYm9keSUzQSUyMGxpc3RzJTIwJTdEJTIwJTNEJTIwYXdhaXQlMjBzdXBhYmFzZSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTU1JTJDJTIyYiUyMiUzQTU1JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwLmZyb20oJ2xpc3RzJyklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E1NiUyQyUyMmIlMjIlM0E1NiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMC5zZWxlY3QoJTYwKiUyQyUyMHRhc2tzKCopJTYwKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTU3JTJDJTIyYiUyMiUzQTU3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGZvciglMjBsZXQlMjBpJTIwaW4lMjBsaXN0cyklN0IlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E1OCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBjb21taXQoJ0FERF9MSVNUJyUyQyUyMGxpc3RzJTVCaSU1RCklM0IlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E1OSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlN0QlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E2MCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCU3RCUyMGNhdGNoJTIwKGVycm9yKSUyMCU3QiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYxJTJDJTIyYiUyMiUzQTU4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwY29uc29sZS5sb2coJ2Vycm9yJyUyQyUyMGVycm9yKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTYyJTJDJTIyYiUyMiUzQTU5JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTdEJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNjMlMkMlMjJiJTIyJTNBNjAlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E1NSUyQyUyMmxpbmVzQ291bnQlMjIlM0E5JTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTU1JTJDJTIybGluZXNDb3VudCUyMiUzQTYlN0QlN0QlN0QlN0Q="
+            "diffType": "MODIFIED",
+            "fileDiffHeader": "diff --git a/src/store/index.js b/src/store/index.js\nindex 5b40cc5..78f62ac 100644\n--- a/src/store/index.js\n+++ b/src/store/index.js",
+            "hunks": [
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": [
+                            "Add the list of todos to your VueX app store"
+                        ]
+                    },
+                    "hunkDiffLines": [
+                        "@@ -55,9 +55,6 @@",
+                        "         let { body: lists } = await supabase",
+                        "           .from('lists')",
+                        "           .select(`*, tasks(*)`)",
+                        "-        for( let i in lists){",
+                        "-          commit('ADD_LIST', lists[i]);",
+                        "-        }",
+                        "       } catch (error) {",
+                        "         console.log('error', error)",
+                        "       }"
+                    ]
+                }
             ]
         }
     },
-    "app_version": "0.2.0",
-    "file_version": "1.0.2"
+    "app_version": "0.2.2",
+    "file_version": "1.0.3"
 }
