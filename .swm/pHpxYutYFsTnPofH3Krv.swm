@@ -2,8 +2,8 @@
     "id": "pHpxYutYFsTnPofH3Krv",
     "name": "Subscribing to Updates",
     "dod": "In this unit you should make the app sync task status changes",
-    "description": "",
-    "summary": "",
+    "description": "Similar to the previous unit we now will listen to an other type of event, the `UPDATE` and can than react to any update in an entry. On an update of a tasks status we will update the app store.",
+    "summary": "Right on! We learned how to respond to `UPDATE` events from `supabase` and address what we care most about. In this unit's context we updated the app's state on every change in a task entry status.",
     "tests": [],
     "hints": [],
     "swimmPatch": {

@@ -2,8 +2,8 @@
     "id": "nmyXUTXnUMCE8rHisSm5",
     "name": "Creating a To do list in the DB",
     "dod": "In this unit you should make the add list button work :)",
-    "description": "",
-    "summary": "That was wasy :)\n\n![image.png](https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2F0jBGcP2zqusX3mGqQgeK%2Fimg%2Ff8818e42-f196-4695-95a1-ba2d773fdad5.png?alt=media&token=52c1c59b-6392-44de-8d19-bbabb1f1996b)\n\n[these are the official Supabase docs](https://supabase.io/docs/library/post)\n\n",
+    "description": "Let's create a list of tasks with randomly generated ids in `supabase` with the `insert` method",
+    "summary": "That was wasy :) Keep rocking.\n\n![image.png](https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2F0jBGcP2zqusX3mGqQgeK%2Fimg%2Ff8818e42-f196-4695-95a1-ba2d773fdad5.png?alt=media&token=52c1c59b-6392-44de-8d19-bbabb1f1996b)\n\n[these are the official Supabase docs](https://supabase.io/docs/library/post)\n\n",
     "tests": [],
     "hints": [
         "Did you try to use supabase insert method?",

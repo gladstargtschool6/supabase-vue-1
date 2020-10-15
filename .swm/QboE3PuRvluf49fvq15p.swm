@@ -1,12 +1,12 @@
 {
     "id": "QboE3PuRvluf49fvq15p",
     "name": "Creating the client",
-    "dod": "In this unit you should use the createClient method to initialize Supabase in the project",
-    "description": "Please look at the example at [Supabase docs](https://supabase.io/docs/library/getting-started#initializing)",
-    "summary": "That's it,\nWe are good to go.\nNow that the project is initialized we can start creating data\n\nIf you didn't know the concept of .evn file and process.env we highly recommend reading about it [here](https://cli.vuejs.org/guide/mode-and-env.html)",
+    "dod": "In this unit you should use the `createClient` method to initialize `supabase` in the project",
+    "description": "Please look at the example at [Supabase docs](https://supabase.io/docs/library/getting-started#initializing) to better understand how to initialize `supabase` with the `createClient` method",
+    "summary": "That's it,\nWe are good to go.\nNow that the project is initialized we can start creating data.\n\nIf you didn't know the concepts of `.evn` file and `process.env` we highly recommend reading about it [here](https://cli.vuejs.org/guide/mode-and-env.html)",
     "tests": [],
     "hints": [
-        "Did you add the .env file to the root folder?"
+        "Did you add the `.env` file to the root folder?"
     ],
     "swimmPatch": {
         "src/store/index.js": {
@@ -16,7 +16,7 @@
                 {
                     "swimmHunkMetadata": {
                         "hunkComments": [
-                            "Passing the URL and API Key arguments to Supabase createClient to Initialize"
+                            "Passing the URL and API Key arguments to `supabase` `createClient` to Initialize"
                         ]
                     },
                     "hunkDiffLines": [
