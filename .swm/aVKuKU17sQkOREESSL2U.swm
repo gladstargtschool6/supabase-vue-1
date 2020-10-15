@@ -1,28 +1,42 @@
 {
     "id": "aVKuKU17sQkOREESSL2U",
     "name": "Adding the changeTaskStatus method",
-    "dod": "SW4lMjB0aGlzJTIwdW5pdCUyMHlvdSUyMHNob3VsZCUyMGltcGxlbWVudCUyMHRoZSUyMHN0b3JlJTIwbWV0aG9kJTIwY2hhbmdlVGFza1N0YXR1cw==",
+    "dod": "In this unit you should implement the store method changeTaskStatus",
     "description": "",
     "summary": "",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNyYyUyRnN0b3JlJTJGaW5kZXguanMlMjBiJTJGc3JjJTJGc3RvcmUlMkZpbmRleC5qcyUwQWluZGV4JTIwNWI0MGNjNS4uYTU2YzY0OCUyMDEwMDY0NCUwQS0tLSUyMGElMkZzcmMlMkZzdG9yZSUyRmluZGV4LmpzJTBBJTJCJTJCJTJCJTIwYiUyRnNyYyUyRnN0b3JlJTJGaW5kZXguanMlMEElNDAlNDAlMjAtNzglMkMxMyUyMCUyQjc4JTJDNSUyMCU0MCU0MCUyMGV4cG9ydCUyMGRlZmF1bHQlMjBuZXclMjBWdWV4LlN0b3JlKCU3QiUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGNvbnNvbGUubG9nKCdlcnJvciclMkMlMjBlcnJvciklMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlN0QlMEElMjAlMjAlMjAlMjAlMjAlN0QlMkMlMEEtJTIwJTIwJTIwJTIwYXN5bmMlMjBjaGFuZ2VUYXNrU3RhdHVzKCU3QmNvbW1pdCU3RCUyQyUyMGFyZ3MpJTdCJTBBLSUyMCUyMCUyMCUyMCUyMCUyMHRyeSUyMCU3QiUwQS0lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBsZXQlMjAlN0IlMjBib2R5JTIwJTdEJTIwJTNEJTIwYXdhaXQlMjBzdXBhYmFzZS5mcm9tKCd0YXNrcycpLmVxKCdpZCclMkMlMjBhcmdzLnRhc2tJZCkudXBkYXRlKCU3QmNvbXBsZXRlJTNBJTIwYXJncy5jaGVja2VkJTdEKSUwQS0lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjByZXR1cm4lMjBib2R5JTBBLSUyMCUyMCUyMCUyMCUyMCUyMCU3RCUyMGNhdGNoJTIwKGVycm9yKSUyMCU3QiUwQS0lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBjb25zb2xlLmxvZygnZXJyb3InJTJDJTIwZXJyb3IpJTBBLSUyMCUyMCUyMCUyMCUyMCUyMCU3RCUwQS0lMjAlMjAlMjAlMjAlN0QlMEElMjAlMjAlMjAlN0QlMEElMjAlN0QpJTBB",
     "tests": [],
     "hints": [],
-    "files": {
+    "swimmPatch": {
         "src/store/index.js": {
-            "index": [
-                "5b40cc5..a56c648",
-                "100644"
-            ],
-            "fileA": "src/store/index.js",
-            "fileB": "src/store/index.js",
-            "status": "MODIFIED",
-            "numLineDeletions": 8,
-            "numLineAdditions": 0,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC03OCUyQzEzJTIwJTJCNzglMkM1JTIwJTQwJTQwJTIwZXhwb3J0JTIwZGVmYXVsdCUyMG5ldyUyMFZ1ZXguU3RvcmUoJTdCJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGNvbnNvbGUubG9nKCdlcnJvciclMkMlMjBlcnJvciklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E3OCUyQyUyMmIlMjIlM0E3OCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCU3RCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTc5JTJDJTIyYiUyMiUzQTc5JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTdEJTJDJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBODAlMkMlMjJiJTIyJTNBODAlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwYXN5bmMlMjBjaGFuZ2VUYXNrU3RhdHVzKCU3QmNvbW1pdCU3RCUyQyUyMGFyZ3MpJTdCJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBODElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwdHJ5JTIwJTdCJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBODIlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwbGV0JTIwJTdCJTIwYm9keSUyMCU3RCUyMCUzRCUyMGF3YWl0JTIwc3VwYWJhc2UuZnJvbSgndGFza3MnKS5lcSgnaWQnJTJDJTIwYXJncy50YXNrSWQpLnVwZGF0ZSglN0Jjb21wbGV0ZSUzQSUyMGFyZ3MuY2hlY2tlZCU3RCklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E4MyU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjByZXR1cm4lMjBib2R5JTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBODQlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTdEJTIwY2F0Y2glMjAoZXJyb3IpJTIwJTdCJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBODUlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwY29uc29sZS5sb2coJ2Vycm9yJyUyQyUyMGVycm9yKSUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTg2JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCUyMCU3RCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTg3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmRlbCUyMiUyQyUyMm1hcmslMjIlM0ElMjItJTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCU3RCUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTg4JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTdEJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBODklMkMlMjJiJTIyJTNBODElN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyY29udGV4dCUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlN0QpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBOTAlMkMlMjJiJTIyJTNBODIlN0QlN0QlNUQlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E3OCUyQyUyMmxpbmVzQ291bnQlMjIlM0ExMyU3RCUyQyUyMmIlMjIlM0ElN0IlMjJzdGFydExpbmUlMjIlM0E3OCUyQyUyMmxpbmVzQ291bnQlMjIlM0E1JTdEJTdEJTdEJTdE"
+            "diffType": "MODIFIED",
+            "fileDiffHeader": "diff --git a/src/store/index.js b/src/store/index.js\nindex 5b40cc5..a56c648 100644\n--- a/src/store/index.js\n+++ b/src/store/index.js",
+            "hunks": [
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": [
+                            " `changeTaskStatus` method listens to tasks status changes in the db thus, keeping the client updated with every change"
+                        ]
+                    },
+                    "hunkDiffLines": [
+                        "@@ -78,13 +78,5 @@",
+                        "         console.log('error', error)",
+                        "       }",
+                        "     },",
+                        "-    async changeTaskStatus({commit}, args){",
+                        "-      try {",
+                        "-        let { body } = await supabase.from('tasks').eq('id', args.taskId).update({complete: args.checked})",
+                        "-        return body",
+                        "-      } catch (error) {",
+                        "-        console.log('error', error)",
+                        "-      }",
+                        "-    }",
+                        "   }",
+                        " })"
+                    ]
+                }
             ]
         }
     },
-    "app_version": "0.2.0",
-    "file_version": "1.0.2"
+    "app_version": "0.2.2",
+    "file_version": "1.0.3"
 }
