@@ -3,7 +3,7 @@
     "name": "Subscribing to Inserts",
     "dod": "In this unit you should implement the function subscribeToListChanges",
     "description": "In `supabase` we can subscribe to any new inserts to the DB, let's learn how with the `.on` method",
-    "summary": "",
+    "summary": "We learned how to subscribe for new inserts to the DB with the `.on` method. Just chain it to the list you want to query, pass the event name argument + a callback to get access to running context once the trigger for th event had occured. Cool!",
     "tests": [],
     "hints": [],
     "swimmPatch": {
