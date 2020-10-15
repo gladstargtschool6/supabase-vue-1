@@ -1,28 +1,42 @@
 {
     "id": "MQ28DoFxaF672CT1QCb5",
     "name": "Subscribing to Inserts",
-    "dod": "SW4lMjB0aGlzJTIwdW5pdCUyMHlvdSUyMHNob3VsZCUyMGltcGxlbWVudCUyMHRoZSUyMGZ1bmN0aW9uJTIwc3Vic2NyaWJlVG9MaXN0Q2hhbmdlcw==",
+    "dod": "In this unit you should implement the function subscribeToListChanges",
     "description": "",
     "summary": "",
-    "diff": "ZGlmZiUyMC0tZ2l0JTIwYSUyRnNyYyUyRnN0b3JlJTJGaW5kZXguanMlMjBiJTJGc3JjJTJGc3RvcmUlMkZpbmRleC5qcyUwQWluZGV4JTIwNWI0MGNjNS4uYWFjMmExZCUyMDEwMDY0NCUwQS0tLSUyMGElMkZzcmMlMkZzdG9yZSUyRmluZGV4LmpzJTBBJTJCJTJCJTJCJTIwYiUyRnNyYyUyRnN0b3JlJTJGaW5kZXguanMlMEElNDAlNDAlMjAtMzIlMkMxMiUyMCUyQjMyJTJDNyUyMCU0MCU0MCUyMGV4cG9ydCUyMGRlZmF1bHQlMjBuZXclMjBWdWV4LlN0b3JlKCU3QiUwQSUyMCUyMCUyMCU3RCUyQyUwQSUyMCUyMCUyMGFjdGlvbnMlM0ElMjAlN0IlMEElMjAlMjAlMjAlMjAlMjBzdWJzY3JpYmVUb0xpc3RDaGFuZ2VzKCU3QiUyMGNvbW1pdCUyMCU3RCklN0IlMEEtJTIwJTIwJTIwJTIwJTIwJTIwY29uc3QlMjBsaXN0cyUyMCUzRCUyMHN1cGFiYXNlJTBBLSUyMCUyMCUyMCUyMCUyMCUyMC5mcm9tKCdsaXN0cycpJTBBLSUyMCUyMCUyMCUyMCUyMCUyMC5vbignSU5TRVJUJyUyQyUyMHBheWxvYWQlMjAlM0QlM0UlMjAlN0IlMEEtJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwY29tbWl0KCdBRERfTElTVCclMkMlMjBwYXlsb2FkLm5ldyklM0IlMEEtJTIwJTIwJTIwJTIwJTIwJTIwJTdEKSUwQS0lMjAlMjAlMjAlMjAlMjAlMjAuc3Vic2NyaWJlKCklMEElMkIlMjAlMjAlMjAlMjAlMjAlMjAlMEElMjAlMjAlMjAlMjAlMjAlN0QlMkMlMEElMjAlMjAlMjAlMjAlMjBzdWJzY3JpYmVUb1Rhc2tzQ2hhbmdlcyglN0JzdGF0ZSUyQyUyMGNvbW1pdCU3RCUyQyUyMGxpc3RfaWQpJTdCJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwc3VwYWJhc2UlMEE=",
     "tests": [],
     "hints": [],
-    "files": {
+    "swimmPatch": {
         "src/store/index.js": {
-            "index": [
-                "5b40cc5..aac2a1d",
-                "100644"
-            ],
-            "fileA": "src/store/index.js",
-            "fileB": "src/store/index.js",
-            "status": "MODIFIED",
-            "numLineDeletions": 6,
-            "numLineAdditions": 1,
-            "hunkContainers": [
-                "JTdCJTIyaHVuayUyMiUzQSU3QiUyMmhlYWRlciUyMiUzQSUyMiU0MCU0MCUyMC0zMiUyQzEyJTIwJTJCMzIlMkM3JTIwJTQwJTQwJTIwZXhwb3J0JTIwZGVmYXVsdCUyMG5ldyUyMFZ1ZXguU3RvcmUoJTdCJTIyJTJDJTIyY2hhbmdlcyUyMiUzQSU1QiU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCU3RCUyQyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTMyJTJDJTIyYiUyMiUzQTMyJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwYWN0aW9ucyUzQSUyMCU3QiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTMzJTJDJTIyYiUyMiUzQTMzJTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwc3Vic2NyaWJlVG9MaXN0Q2hhbmdlcyglN0IlMjBjb21taXQlMjAlN0QpJTdCJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMzQlMkMlMjJiJTIyJTNBMzQlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwY29uc3QlMjBsaXN0cyUyMCUzRCUyMHN1cGFiYXNlJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMzUlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwLmZyb20oJ2xpc3RzJyklMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzNiU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAub24oJ0lOU0VSVCclMkMlMjBwYXlsb2FkJTIwJTNEJTNFJTIwJTdCJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMzclN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwY29tbWl0KCdBRERfTElTVCclMkMlMjBwYXlsb2FkLm5ldyklM0IlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0EzOCU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJkZWwlMjIlMkMlMjJtYXJrJTIyJTNBJTIyLSUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlN0QpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBMzklN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyZGVsJTIyJTJDJTIybWFyayUyMiUzQSUyMi0lMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwLnN1YnNjcmliZSgpJTIyJTJDJTIybGluZU51bWJlcnMlMjIlM0ElN0IlMjJhJTIyJTNBNDAlN0QlN0QlMkMlN0IlMjJ0eXBlJTIyJTNBJTIyYWRkJTIyJTJDJTIybWFyayUyMiUzQSUyMiUyQiUyMiUyQyUyMmRhdGElMjIlM0ElMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmIlMjIlM0EzNSU3RCU3RCUyQyU3QiUyMnR5cGUlMjIlM0ElMjJjb250ZXh0JTIyJTJDJTIyZGF0YSUyMiUzQSUyMiUyMCUyMCUyMCUyMCUyMCU3RCUyQyUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTQxJTJDJTIyYiUyMiUzQTM2JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwc3Vic2NyaWJlVG9UYXNrc0NoYW5nZXMoJTdCc3RhdGUlMkMlMjBjb21taXQlN0QlMkMlMjBsaXN0X2lkKSU3QiUyMiUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQTQyJTJDJTIyYiUyMiUzQTM3JTdEJTdEJTJDJTdCJTIydHlwZSUyMiUzQSUyMmNvbnRleHQlMjIlMkMlMjJkYXRhJTIyJTNBJTIyJTIwJTIwJTIwJTIwJTIwJTIwJTIwc3VwYWJhc2UlMjIlMkMlMjJsaW5lTnVtYmVycyUyMiUzQSU3QiUyMmElMjIlM0E0MyUyQyUyMmIlMjIlM0EzOCU3RCU3RCU1RCUyQyUyMmxpbmVOdW1iZXJzJTIyJTNBJTdCJTIyYSUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTMyJTJDJTIybGluZXNDb3VudCUyMiUzQTEyJTdEJTJDJTIyYiUyMiUzQSU3QiUyMnN0YXJ0TGluZSUyMiUzQTMyJTJDJTIybGluZXNDb3VudCUyMiUzQTclN0QlN0QlN0QlN0Q="
+            "diffType": "MODIFIED",
+            "fileDiffHeader": "diff --git a/src/store/index.js b/src/store/index.js\nindex 5b40cc5..aac2a1d 100644\n--- a/src/store/index.js\n+++ b/src/store/index.js",
+            "hunks": [
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": [
+                            "The `.on` method chained on `supabase` initiates a listener to any insertions to the db. Upon change we update the app store"
+                        ]
+                    },
+                    "hunkDiffLines": [
+                        "@@ -32,12 +32,7 @@",
+                        "   },",
+                        "   actions: {",
+                        "     subscribeToListChanges({ commit }){",
+                        "-      const lists = supabase",
+                        "+      ",
+                        "-      .from('lists')",
+                        "-      .on('INSERT', payload => {",
+                        "-        commit('ADD_LIST', payload.new);",
+                        "-      })",
+                        "-      .subscribe()",
+                        "     },",
+                        "     subscribeToTasksChanges({state, commit}, list_id){",
+                        "       supabase"
+                    ]
+                }
             ]
         }
     },
-    "app_version": "0.2.0",
-    "file_version": "1.0.2"
+    "app_version": "0.2.2",
+    "file_version": "1.0.3"
 }
