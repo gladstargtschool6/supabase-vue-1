@@ -2,8 +2,8 @@
     "id": "pY3mYYZII9e7qK1Eu8vQ",
     "name": "Fetching lists and adding them to the store",
     "dod": "In this unit you should see why the lists are not shown after fetch...",
-    "description": "",
-    "summary": "",
+    "description": "We should update the app store with the tasks fetched from `supabase`",
+    "summary": "By iterating on each list item and commiting it to the app store with VueX `commit` method we make sure the app's store would be aware of the current tasks available in `supabase`.",
     "tests": [],
     "hints": [],
     "swimmPatch": {
