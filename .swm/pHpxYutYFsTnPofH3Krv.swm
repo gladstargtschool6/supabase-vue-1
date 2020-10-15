@@ -2,7 +2,7 @@
     "id": "pHpxYutYFsTnPofH3Krv",
     "name": "Subscribing to Updates",
     "dod": "In this unit you should make the app sync task status changes",
-    "description": "",
+    "description": "Similar to the previous unit we now will listen to an other type of event, the `UPDATE` and can than react to any update in an entry.",
     "summary": "",
     "tests": [],
     "hints": [],
