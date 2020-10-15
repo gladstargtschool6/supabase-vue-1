@@ -2,7 +2,7 @@
     "id": "MQ28DoFxaF672CT1QCb5",
     "name": "Subscribing to Inserts",
     "dod": "In this unit you should implement the function subscribeToListChanges",
-    "description": "",
+    "description": "In `supabase` we can subscribe to any new inserts to the DB, let's learn how with the `.on` method",
     "summary": "",
     "tests": [],
     "hints": [],
