@@ -14,7 +14,7 @@
                 {
                     "swimmHunkMetadata": {
                         "hunkComments": [
-                            "Add the list of todos to your VueX app store"
+                            "Add the list of tasks to your VueX app store"
                         ]
                     },
                     "hunkDiffLines": [
